@@ -180,7 +180,7 @@ function redondearHaciaArriba(num) {
 function numeroRandom() {
   //Generar un número al azar entre 0 y 1 y devolverlo
   //Pista: investigá qué hace el método Math.random()
-  return math.random(0, 1) ;
+  return math.random() ;
 }
 
 function esPositivo(numero) {
@@ -241,7 +241,7 @@ function retornarPerimetro(lado){
 function areaDelTriangulo(base, altura){
   //Desarrolle una función que calcule el área de un triángulo.
   //Escribe tu código aquí
-return (base * altura)/2 
+return base * altura/2 
 }
 
 
