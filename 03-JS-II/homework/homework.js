@@ -220,7 +220,7 @@ function doWhile(numero) {
   numero = numero + 5
   } while (i<8);
   return numero
-}
+  }
 
 
 // No modificar nada debajo de esta línea
