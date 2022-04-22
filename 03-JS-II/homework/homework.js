@@ -181,7 +181,7 @@ function esPrimo(numero) {
       return false;
     }
   }
-    return true;
+  return true;
 }
 
 function esVerdadero(valor){
@@ -221,7 +221,7 @@ function doWhile(numero) {
   //Implementar una función tal que vaya aumentando el valor recibido en 5 hasta un límite de 8 veces
   //Retornar el valor final.
   //Usar el bucle do ... while.
-  var i = 0
+  let i = 0;
   do{
     i = i + 1;
     numero = numero + 5;
